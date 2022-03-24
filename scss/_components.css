@@ -68,6 +68,21 @@
   transform: scale(1.2);
 }
 
+.body__main__projects__article {
+  display: grid;
+  grid-template-columns: 60ch 60ch;
+  gap: 5ch;
+  margin: 2ch auto;
+  width: 120ch;
+}
+.body__main__projects__article__p__span {
+  display: block;
+  text-align: left;
+}
+.body__main__projects__article__image {
+  width: 60ch;
+}
+
 .body__footer__ul_li {
   display: inline-block;
 }

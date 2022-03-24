@@ -65,6 +65,22 @@ $color-hero-blue: #5D87E3;
 #body__main__what-i__a__button:hover{
     transform: scale(1.2);
 }
+
+.body__main__projects__article{
+    display: grid;
+    grid-template-columns: 60ch 60ch;
+    gap: 5ch;
+    margin: 2ch auto;
+    width: 120ch;
+    &__p__span{
+        display: block;
+        text-align: left;
+    }
+    &__image{
+        width: 60ch;
+    }
+}
+
 .body__footer__ul_li{
     display: inline-block;
 }
