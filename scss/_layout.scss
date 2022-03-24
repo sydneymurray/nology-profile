@@ -1,17 +1,22 @@
 
 #body__main{
     &__hero{
+        margin-left: 0;
+        margin-right: 0;
         height: auto;
         background-color: $color-hero-blue;
         display: grid;
         grid-template-columns: 1fr 1fr;        
     }
     &__what-i{
-        display: flex;
-        justify-content: space-evenly;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 5%;
         padding-top: 3ch;
         & *{
+            display: inline-block;
             width: 60ch;
         }
     }
 }
+

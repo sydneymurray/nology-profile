@@ -33,20 +33,21 @@ $color-hero-blue: #5D87E3;
 }
 
 #body__main__what-i__can-do{
-    margin-left: 10ch;
+    margin-left: auto;
+    //margin-right: 50%;
 }
 
 #body__main__what-i__have-done{
-    margin-right: 10ch;
+    //margin-left: 50%;
+    //margin-right: 50%;
 }
 .body__main__what-i__h2{
+    display: inline-block;
     text-align: center;
-    padding-right: 50%;
-    width: 60ch;
-    margin-left: auto;
-    margin-right: auto;
+    width: 40ch;
 }
 .body__main__what-i__p{
+    display: inline-block;
     text-align: left;
 }
 
@@ -62,6 +63,11 @@ $color-hero-blue: #5D87E3;
         color: white;
     }
 }
+.bold-inline-block{
+    display: inline-block;
+    font-size: 0.7em;;
+    font-weight: bold;
+}
 #body__main__what-i__a__button:hover{
     transform: scale(1.2);
 }
@@ -69,9 +75,9 @@ $color-hero-blue: #5D87E3;
 .body__main__projects__article{
     display: grid;
     grid-template-columns: 60ch 60ch;
-    gap: 5ch;
-    margin: 2ch auto;
-    width: 120ch;
+    gap: 10ch;
+    margin: 8ch auto;
+    width: 130ch;
     &__p__span{
         display: block;
         text-align: left;
@@ -79,6 +85,12 @@ $color-hero-blue: #5D87E3;
     &__image{
         width: 60ch;
     }
+}
+
+.center-red{
+    color: red;
+    display: block;
+    text-align: center;
 }
 
 .body__footer__ul_li{
