@@ -185,3 +185,15 @@
     height: 300px;
   }
 }
+@media screen and (max-width: 658px) {
+  #body__main__hero__h1-container {
+    margin-right: auto;
+    margin-left: 2%;
+    font-size: 0.6em;
+  }
+
+  #body__main__hero__image {
+    margin-left: auto;
+    height: 300px;
+  }
+}
