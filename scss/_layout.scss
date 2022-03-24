@@ -1,0 +1,17 @@
+
+#body__main{
+    &__hero{
+        height: auto;
+        background-color: $color-hero-blue;
+        display: grid;
+        grid-template-columns: 1fr 1fr;        
+    }
+    &__what-i{
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 3ch;
+        & *{
+            width: 60ch;
+        }
+    }
+}
