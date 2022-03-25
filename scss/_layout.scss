@@ -32,15 +32,25 @@
 }
 
 @media screen and (max-width: 538px) {
-    #body{
-        transform: scale(0.7);
-        transform-origin: 0 0;
-        margin-left: 10%;
-        margin-right:0%;
-    }
-    .body__main__hero__h1-container__h1{
-        width: 10ch;
+    #body__main__hero__h1-container{
+        width: 43ch;
+        &__h1{
+            width: 30ch;
+        }
     }
 }
 
+/*
+@media screen and (max-width: 538px) {
+    *{
+        transform: scale(0.97);
+        transform-origin: 0 0;
+        margin-left: 0%;
+        margin-right:0%;
+    }
+    #body__main__hero__h1-container{
+        width: 45ch;
+    }
+}
 
+*/

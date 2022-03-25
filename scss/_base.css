@@ -7,31 +7,3 @@ $color-primary: rgb(47, 68, 124);$color-hero-blue: color: #5D87E3;
   font-family: "Tillana";
   text-align: center;
 }
-
-/*
-
-@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
-$font-body: sans-serif;
-
-$color-primary: rgb(47, 68, 124);
-$color-secondary: #70c3f3;
-$background-color-primary: #fdfcf4;
-$background-color-footer: #faf6df;
-$document-width: 350px;
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: $font-body;
-}
-
-.bold{
-    font-weight: bold;
-}
-.light-text{
-    font-weight: 100;
-}
-
-
-*/

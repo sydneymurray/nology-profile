@@ -34,13 +34,8 @@ $color-hero-blue: #5D87E3;
 
 #body__main__what-i__can-do{
     margin-left: auto;
-    //margin-right: 50%;
 }
 
-#body__main__what-i__have-done{
-    //margin-left: 50%;
-    //margin-right: 50%;
-}
 .body__main__what-i__h2{
     display: inline-block;
     text-align: center;
@@ -69,7 +64,10 @@ $color-hero-blue: #5D87E3;
     font-weight: bold;
 }
 #body__main__what-i__a__button:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
+    color: $color-hero-blue;
+    background-color: white;
+box-shadow: 0 4px 8px 0 rgb(0 0 0 / 40%);
 }
 
 .body__main__projects__article{
@@ -193,5 +191,13 @@ $color-hero-blue: #5D87E3;
     #body__main__hero__image{
         margin-left: auto;
         height: 300px;
+    }
+}
+
+
+@media screen and (max-width: 538px) {
+    #body__main__hero__image{
+        margin-left: auto;
+        height: 250px;
     }
 }
