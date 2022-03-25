@@ -37,15 +37,9 @@
         transform-origin: 0 0;
         margin-left: 70%;
         margin-right:30%;
-        &__main{
-            &__hero{
-                &__hero-h1-container{
-                    &__h1{
-                        width: 30ch;
-                    }
-                }
-            }
-        }
+    }
+    .body__main__hero__h1-container__h1{
+        width: 10ch;
     }
 }
 

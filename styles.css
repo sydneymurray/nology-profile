@@ -40,7 +40,12 @@
   #body {
     transform: scale(0.7);
     transform-origin: 0 0;
-    margin: 0 10%;
+    margin-left: 70%;
+    margin-right: 30%;
+  }
+
+  .body__main__hero__h1-container__h1 {
+    width: 10ch;
   }
 }
 #body__header__nav-bar__ul {
