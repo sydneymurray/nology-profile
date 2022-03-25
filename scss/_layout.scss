@@ -29,7 +29,14 @@
             margin: 2ch auto;
         }
     }
-    
-
 }
+
+@media screen and (max-width: 538px) {
+    #body{
+        transform: scale(0.7);
+        transform-origin: 0 0;
+        margin: 0 10%;
+    }
+}
+
 
