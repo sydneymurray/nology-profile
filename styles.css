@@ -262,7 +262,8 @@
   #body__main__hero__h1-container {
     margin-right: 0;
     margin-left: 4%;
-    font-size: 0.8em;
+    font-size: 0.6em;
+    font-weight: bold;
     width: 30ch;
   }
   #body__main__hero__h1-container__h1 {
@@ -273,6 +274,18 @@
     margin-left: auto;
     margin-right: 0;
     height: 300px;
+  }
+
+  .body__header__nav-bar__ul__li__h2,
+.body__main__what-i__h2,
+#body__main__what-i__a,
+#body__main__what-i__a__button,
+.body__main_projects__article__h2,
+.body__main__what-i__p,
+.body__main__what-i__li,
+.body__main_projects__article__p {
+    font-size: 0.6em;
+    font-weight: bold;
   }
 
   #body__main__what-i__a__button {
@@ -299,15 +312,3 @@
     display: none;
   }
 }
-/*
-    .body__header__nav-bar__ul__li__h2,
-    .body__main__what-i__h2,
-    #body__main__what-i__a,
-    #body__main__what-i__a__button,
-    .body__main_projects__article__h2,
-    .body__main__what-i__p,
-    .body__main__what-i__li,
-    .body__main_projects__article__p{
-        font-size: 0.8em;
-    }
-*/
