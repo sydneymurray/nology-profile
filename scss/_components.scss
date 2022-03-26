@@ -109,7 +109,7 @@ $color-hero-blue: #5D87E3;
 }
 
 .body__main_projects__article__h2:hover{
-    //transform: scale(1.05);
+    transform: scale(0.8);
     color: white;
     background-color: $color-hero-blue;
     border: 2px solid rgb(80, 80, 184);

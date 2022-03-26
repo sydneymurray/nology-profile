@@ -109,6 +109,7 @@
 }
 
 .body__main_projects__article__h2:hover {
+  transform: scale(0.8);
   color: white;
   background-color: #5D87E3;
   border: 2px solid #5050b8;
