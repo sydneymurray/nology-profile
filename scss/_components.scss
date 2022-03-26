@@ -68,6 +68,7 @@ $color-hero-blue: #5D87E3;
     transform: scale(1.1);
     color: $color-hero-blue;
     background-color: white;
+    border: 2px solid $color-hero-blue;
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 40%);
 }
 
@@ -191,11 +192,12 @@ $color-hero-blue: #5D87E3;
 @media screen and (max-width: 658px) {
     #body__main__hero__h1-container{
         margin-right: auto;
-        margin-left: 2%;
+        margin-left: auto;
         font-size: 0.6em;
     }
     #body__main__hero__image{
         margin-left: auto;
+        margin-right: auto;
         height: 300px;
     }
     .body__header__nav-bar__ul__li__h2,
@@ -227,3 +229,4 @@ $color-hero-blue: #5D87E3;
         height: 250px;
     }
 }
+*/
