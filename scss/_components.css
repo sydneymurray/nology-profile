@@ -227,6 +227,10 @@
     font-size: 0.8em;
   }
 
+  #body__main__what-i__a__button {
+    margin-bottom: 3ch;
+  }
+
   .body__main__projects__article {
     grid-template-columns: 50ch;
     gap: 0;
