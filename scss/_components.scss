@@ -204,16 +204,7 @@ $color-hero-blue: #5D87E3;
         margin-right: 0;
         height: 300px;
     }
-    .body__header__nav-bar__ul__li__h2,
-    .body__main__what-i__h2,
-    #body__main__what-i__a,
-    #body__main__what-i__a__button,
-    .body__main_projects__article__h2,
-    .body__main__what-i__p,
-    .body__main__what-i__li,
-    .body__main_projects__article__p{
-        font-size: 0.8em;
-    }
+
     #body__main__what-i__a__button{
         margin-bottom: 5ch;
     }
@@ -239,3 +230,16 @@ $color-hero-blue: #5D87E3;
         display: none;
     }
 }
+
+/*
+    .body__header__nav-bar__ul__li__h2,
+    .body__main__what-i__h2,
+    #body__main__what-i__a,
+    #body__main__what-i__a__button,
+    .body__main_projects__article__h2,
+    .body__main__what-i__p,
+    .body__main__what-i__li,
+    .body__main_projects__article__p{
+        font-size: 0.8em;
+    }
+*/
