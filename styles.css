@@ -259,23 +259,19 @@
   }
 }
 @media screen and (max-width: 658px) {
-  .mobile-no-display {
-    display: none;
-  }
-
   #body__main__hero__h1-container {
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 0;
+    margin-left: 4%;
     font-size: 0.6em;
-    width: 22ch;
+    width: 30ch;
   }
   #body__main__hero__h1-container__h1 {
-    width: 22ch;
+    width: 30ch;
   }
 
   #body__main__hero__image {
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 0;
     height: 300px;
   }
 
@@ -291,7 +287,7 @@
   }
 
   #body__main__what-i__a__button {
-    margin-bottom: 3ch;
+    margin-bottom: 5ch;
   }
 
   .body__main__projects__article {
@@ -309,11 +305,8 @@
     margin: 1ch;
   }
 }
-/*
-@media screen and (max-width: 538px) {
-    #body__main__hero__image{
-        margin-left: auto;
-        height: 250px;
-    }
+@media screen and (max-width: 525px) {
+  .mobile-no-display {
+    display: none;
+  }
 }
-*/
