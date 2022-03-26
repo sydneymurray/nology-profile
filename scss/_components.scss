@@ -197,14 +197,14 @@ $color-hero-blue: #5D87E3;
         margin-right: auto;
         margin-left: auto;
         font-size: 0.6em;
-        width: 22ch;
+        width: 20ch;
         &__h1{
-            width: 22ch;
+            width: 20ch;
         }
     }
     #body__main__hero__image{
         margin-left: auto;
-        margin-right: auto;
+        margin-right: 0px;
         height: 300px;
     }
     .body__header__nav-bar__ul__li__h2,
@@ -218,7 +218,7 @@ $color-hero-blue: #5D87E3;
         font-size: 0.8em;
     }
     #body__main__what-i__a__button{
-        margin-bottom: 3ch;
+        margin-bottom: 5ch;
     }
     .body__main__projects__article{
         grid-template-columns: 50ch;
