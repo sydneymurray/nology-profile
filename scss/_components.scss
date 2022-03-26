@@ -55,21 +55,22 @@ $color-hero-blue: #5D87E3;
         text-decoration: none;
         padding: 0.5ch 2ch;
         background-color: $color-hero-blue;
+        border: 2px solid rgb(80, 80, 184);
         border-radius: 10px;
         color: white;
+    }
+    &__button:hover{
+        transform: scale(1.1);
+        color: $color-hero-blue;
+        background-color: white;
+        border: 2px solid $color-hero-blue;
+        box-shadow: 0 4px 8px 0 rgb(0 0 0 / 40%);
     }
 }
 .bold-inline-block{
     display: inline-block;
     font-size: 0.7em;;
     font-weight: bold;
-}
-#body__main__what-i__a__button:hover{
-    transform: scale(1.1);
-    color: $color-hero-blue;
-    background-color: white;
-    border: 2px solid $color-hero-blue;
-    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 40%);
 }
 
 .body__main__projects__article{
@@ -97,6 +98,12 @@ $color-hero-blue: #5D87E3;
     display: block;
     text-align: center;
 }
+#twitter-circle{
+        fill: #007AB9;
+    }
+#twitter-path{
+        fill: #F1F2F2;
+    }
 
 .body__footer__ul_li{
     display: inline-block;
@@ -106,9 +113,29 @@ $color-hero-blue: #5D87E3;
     width: 80px;
     margin: 2ch;
 }
-.body__footer__li__svg__round-icon {
+.body__footer__li__svg__round-icon{
     border-radius: 50%;
 }
+
+#body__footer__back-to-top{
+    position: sticky;
+    display: inline-block;
+    left: 95%;
+    &__icon{
+          fill: white;
+          width: 50px;
+          background-color: $color-hero-blue;
+          border: 3px solid $color-hero-blue;
+          border-radius: 50%;
+    }
+    &__icon:hover{
+        transform: scale(1.3);
+        fill: $color-hero-blue;
+        background-color: white;
+        border: 3px solid $color-hero-blue;
+  }
+}
+
 
 
 .body__footer__li__svg:hover {
