@@ -299,6 +299,11 @@
   .body__main__projects__article__image, .body__main__projects__article__comments {
     width: 50ch;
   }
+
+  .body__footer__li__svg {
+    width: 40px;
+    margin: 1ch;
+  }
 }
 /*
 @media screen and (max-width: 538px) {
