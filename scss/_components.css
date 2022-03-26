@@ -41,7 +41,8 @@
   width: 40ch;
 }
 
-.body__main__what-i__p {
+.body__main__what-i__p,
+.body__main__what-i__li {
   display: inline-block;
   text-align: left;
 }
@@ -198,6 +199,26 @@
   #body__main__hero__image {
     margin-left: auto;
     height: 300px;
+  }
+
+  .body__header__nav-bar__ul__li__h2,
+.body__main__what-i__h2,
+#body__main__what-i__a,
+#body__main__what-i__a__button,
+.body__main_projects__article__h2,
+.body__main__what-i__p,
+.body__main__what-i__li,
+.body__main_projects__article__p {
+    font-size: 0.8em;
+  }
+
+  .body__main__projects__article {
+    grid-template-columns: 50ch;
+    gap: 0;
+    width: 50ch;
+  }
+  .body__main__projects__article__image, .body__main__projects__article__comments {
+    width: 50ch;
   }
 }
 @media screen and (max-width: 538px) {

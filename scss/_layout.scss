@@ -6,7 +6,7 @@
         height: auto;
         background-color: $color-hero-blue;
         display: grid;
-        grid-template-columns: 1fr 1fr;        
+        grid-template-columns: auto auto;        
     }
     &__what-i{
         display: grid;
@@ -30,13 +30,14 @@
         }
     }
 }
-
+/*
 @media screen and (max-width: 538px) {
     #body__main__hero__h1-container{
-        width: 43ch;
-        &__h1{
-            width: 30ch;
-        }
+        width: 3ch;
+    }
+    #body__main__hero__image{
+        margin-left: 100ch;
+        margin-right: 0;
     }
 }
 
