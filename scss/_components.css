@@ -196,6 +196,10 @@
   }
 }
 @media screen and (max-width: 658px) {
+  .mobile-no-display {
+    display: none;
+  }
+
   #body__main__hero__h1-container {
     margin-right: auto;
     margin-left: auto;
