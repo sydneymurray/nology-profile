@@ -259,14 +259,23 @@
   }
 }
 @media screen and (max-width: 658px) {
+  .mobile-no-display {
+    display: none;
+  }
+
   #body__main__hero__h1-container {
     margin-right: auto;
-    margin-left: 2%;
+    margin-left: auto;
     font-size: 0.6em;
+    width: 22ch;
+  }
+  #body__main__hero__h1-container__h1 {
+    width: 22ch;
   }
 
   #body__main__hero__image {
     margin-left: auto;
+    margin-right: auto;
     height: 300px;
   }
 

@@ -197,6 +197,10 @@ $color-hero-blue: #5D87E3;
         margin-right: auto;
         margin-left: auto;
         font-size: 0.6em;
+        width: 22ch;
+        &__h1{
+            width: 22ch;
+        }
     }
     #body__main__hero__image{
         margin-left: auto;

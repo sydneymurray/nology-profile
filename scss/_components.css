@@ -204,6 +204,10 @@
     margin-right: auto;
     margin-left: auto;
     font-size: 0.6em;
+    width: 22ch;
+  }
+  #body__main__hero__h1-container__h1 {
+    width: 22ch;
   }
 
   #body__main__hero__image {
