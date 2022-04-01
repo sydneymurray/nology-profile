@@ -2,5 +2,6 @@ git remote add origin https://github.com/sydneymurray/nology-profile.git
 git branch -M main     
 git push -u origin main
 
-background-color: rgb(246, 239, 239)
-box-shadow: 0 4px 8px 0 rgb(0 0 0 / 40%);
+GitHub Pages Deploy
+https://danforder.notion.site/Basic-Deployment-with-GitHub-Pages-f22cb6f9be334ede927465c7e3655963
+
