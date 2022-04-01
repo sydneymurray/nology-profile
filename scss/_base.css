@@ -1,5 +1,4 @@
-$color-primary: rgb(47, 68, 124);$color-hero-blue: color: #5D87E3;
-
+@import url("https://fonts.googleapis.com/css2?family=Tillana&display=swap");
 * {
   padding: 0;
   margin: 0;
