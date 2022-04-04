@@ -54,3 +54,16 @@
         border: 3px solid #5D87E3;
     }
 }
+
+@media screen and (max-width: 754px) {
+    .footer{
+        .footer-li{
+            .footer-svg{
+                width: 50px;
+            }
+            .back-to-top{
+                width: 35px;
+            }
+        }
+    }
+}

@@ -70,3 +70,17 @@
         }
     } 
 }
+
+@media screen and (max-width: 754px) {
+    .article-response-top{
+        flex-direction: column;
+        align-items: center;
+    }    
+    .article-response-below{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .article-image{
+        margin-top: 1ch;
+    } 
+}

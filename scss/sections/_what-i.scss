@@ -26,7 +26,6 @@
         }
         .what-i__p{
             text-align: left;
-
         }
     }
 }
@@ -49,6 +48,15 @@
             .what-i__h2{
                 width: 29ch;
             }
+        }
+    }
+}
+
+@media screen and (max-width: 754px) {
+    .what-i{
+        flex-wrap: wrap;
+        .what-i__have-done{
+            margin-top: 1ch;
         }
     }
 }

@@ -40,7 +40,7 @@ html {
   display: flex;
   flex-direction: columns;
   justify-content: space-evenly;
-  width: 150ch;
+  width: 130ch;
   margin-top: 3.5ch;
   margin-left: auto;
   margin-right: auto;
@@ -59,6 +59,20 @@ html {
   font-size: 2.5em;
 }
 
+@media screen and (max-width: 754px) {
+  .hero .hero-container {
+    flex-wrap: wrap;
+  }
+  .hero .hero-container .hero__image {
+    height: 350px;
+  }
+  .hero .hero-container .hero__h1-container {
+    margin: auto;
+  }
+  .hero .hero-container .hero__h1-container .hero__h1 {
+    font-size: 1.5em;
+  }
+}
 .what-i {
   display: flex;
   flex-direction: columns;
@@ -101,6 +115,14 @@ html {
   }
   .what-i .what-i__have-done .what-i__h2 {
     width: 29ch;
+  }
+}
+@media screen and (max-width: 754px) {
+  .what-i {
+    flex-wrap: wrap;
+  }
+  .what-i .what-i__have-done {
+    margin-top: 1ch;
   }
 }
 .article {
@@ -171,6 +193,21 @@ html {
   }
   .article .article-image {
     width: 42ch;
+  }
+}
+@media screen and (max-width: 754px) {
+  .article-response-top {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .article-response-below {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .article-image {
+    margin-top: 1ch;
   }
 }
 .projects .projects-a {
@@ -247,4 +284,13 @@ html {
   fill: #5D87E3;
   background-color: white;
   border: 3px solid #5D87E3;
+}
+
+@media screen and (max-width: 754px) {
+  .footer .footer-li .footer-svg {
+    width: 50px;
+  }
+  .footer .footer-li .back-to-top {
+    width: 35px;
+  }
 }
