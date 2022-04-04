@@ -55,6 +55,18 @@
     }
     .article-image:hover {
         transform: scale(1.1);
-      }
+    }
+}
 
+@media screen and (max-width: 1138px) {
+    .article{
+        margin: 8ch auto;
+        max-width: 105ch;
+        .article-comments{
+            width: 42ch;
+        }
+        .article-image{
+            width: 42ch;
+        }
+    } 
 }

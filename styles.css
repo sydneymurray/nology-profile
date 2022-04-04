@@ -76,6 +76,22 @@ html {
   text-align: left;
 }
 
+@media screen and (max-width: 1138px) {
+  .what-i {
+    max-width: 105ch;
+    margin-top: 6ch;
+    margin-bottom: 2ch;
+  }
+  .what-i * {
+    width: 42ch;
+  }
+  .what-i .what-i__can-do .what-i__h2 {
+    width: 29ch;
+  }
+  .what-i .what-i__have-done .what-i__h2 {
+    width: 29ch;
+  }
+}
 .article {
   display: flex;
   justify-content: space-evenly;
@@ -134,6 +150,18 @@ html {
   transform: scale(1.1);
 }
 
+@media screen and (max-width: 1138px) {
+  .article {
+    margin: 8ch auto;
+    max-width: 105ch;
+  }
+  .article .article-comments {
+    width: 42ch;
+  }
+  .article .article-image {
+    width: 42ch;
+  }
+}
 .projects .projects-a {
   display: inline-block;
   margin-top: 3ch;

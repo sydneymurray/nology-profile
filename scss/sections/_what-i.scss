@@ -31,3 +31,24 @@
     }
 }
 
+@media screen and (max-width: 1138px) {
+    .what-i{
+        max-width: 105ch;
+        margin-top: 6ch;
+        margin-bottom: 2ch;
+        *{
+            width: 42ch;
+        }
+        .what-i__can-do{
+            .what-i__h2{
+                width: 29ch;
+
+            }
+        }
+        .what-i__have-done{
+            .what-i__h2{
+                width: 29ch;
+            }
+        }
+    }
+}
