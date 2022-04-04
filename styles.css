@@ -11,15 +11,23 @@ html {
   text-align: center;
 }
 
-.nav-bar__ul {
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  margin-bottom: 2ch;
+  background-color: white;
+}
+.header .nav-bar__ul {
   display: flex;
   justify-content: end;
   list-style-type: none;
 }
-.nav-bar__ul .nav-bar__li {
+.header .nav-bar__ul .nav-bar__li {
   margin: 0 2ch;
 }
-.nav-bar__ul .nav-bar__li:hover {
+.header .nav-bar__ul .nav-bar__li:hover {
   transform: scale(1.2);
 }
 
@@ -33,6 +41,7 @@ html {
   flex-direction: columns;
   justify-content: space-evenly;
   width: 150ch;
+  margin-top: 3.5ch;
   margin-left: auto;
   margin-right: auto;
 }
@@ -43,9 +52,11 @@ html {
 .hero .hero-container .hero__h1-container {
   vertical-align: center;
   margin: auto;
+  margin-left: 1ch;
 }
 .hero .hero-container .hero__h1-container .hero__h1 {
   text-align: left;
+  font-size: 2.5em;
 }
 
 .what-i {
