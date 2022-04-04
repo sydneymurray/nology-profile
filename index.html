@@ -7,26 +7,26 @@
     <link rel="stylesheet" href="styles.css">
     <title>Syd Murray Profile</title>
 </head>
-<body id="body">
+<body>
 
     <!-- Header -->
 
-    <header id="body__header">
-        <nav id="body__header__nav-bar">
-            <ul id="body__header__nav-bar__ul">
-                <li class="body__header__nav-bar__ul__li">
+    <header id="header">
+        <nav>
+            <ul class="nav-bar__ul">
+                <li class="nav-bar__li">
                     <a href="./resources/SydneyMurray-CV.2022.doc">
-                      <h3 class="body__header__nav-bar__ul__li__h2">Resume</h2>
+                      <h3 class="nav-bar__h3">Resume</h3>
                     </a>
                 </li>
-                <li class="body__header__nav-bar__ul__li">
+                <li class="nav-bar__li">
                     <a href="#projects">
-                      <h3 class="body__header__nav-bar__ul__li__h2">Projects</h2>
+                      <h3 class="nav-bar__h3">Projects</h3>
                     </a>
                 </li>
-                <li class="body__header__nav-bar__ul__li">
-                    <a href="#body__footer__contact-me__h2">
-                      <h3 class="body__header__nav-bar__ul__li__h2">Contact Me</h2>
+                <li class="nav-bar__li">
+                    <a href="#contact-me">
+                      <h3 class="nav-bar__h3">Contact Me</h3>
                     </a>
                 </li>
             </ul>
@@ -36,142 +36,141 @@
 
     <!-- Main -->
 
-    <main id="body__main">
-        <section id="body__main__hero">
-            <div id="body__main__hero__h1-container">
-                <h1 class="body__main__hero__h1-container__h1">Hi,</h1> 
-                <h1 class="body__main__hero__h1-container__h1">I’m Sydney.</h1>
-                <h1 class="body__main__hero__h1-container__h1 mobile-no-display">I am an experienced IT Technician,</h1>
-                <h1 class="body__main__hero__h1-container__h1">and I develop websites!</h1>
+    <main class="main">
+        <section class="hero">
+            <div class="hero-container">
+                <div class="hero__h1-container">
+                    <h1 class="hero__h1 text-align-left">Hi,</h1> 
+                    <h1 class="hero__h1 text-align-left">I’m Sydney.</h1>
+                    <h1 class="hero__h1 text-align-left mobile-no-display">I am a Full-Stack Web Developer</h1>
+                </div>
+                <img class="hero__image" src="./resources/Portrait.png" alt="">
             </div>
-            <img id="body__main__hero__image" src="./resources/Portrait.png" alt="">
         </section>
 
-        <section id="body__main__what-i">
-            <div id="body__main__what-i__can-do">
-                <h2 class="body__main__what-i__h2" style="width: 40ch">What I can do?</h2>
-                <p class="body__main__what-i__p" >After spending many years as a Network Engineer and an IT Technician, I was made redundant due to the pandemic, and so decided to embark on a journey and try my skills at Software Development.</p>
-                <p class="body__main__what-i__p">Now. I can conceive, design and build websites from conception through to the design stage, with user stories, wire-frame diagrams, I can determine & design database models utilizing SQL also design and build a back end server application right through to the front end client application.</p>
+        <section class="what-i">
+            <div class="what-i__can-do">
+                <h2 class="what-i__h2">What I can do?</h2>
+                <p class="what-i__p" >After spending many years as a Network Engineer and an IT Technician, I was made redundant due to the pandemic, and so decided to embark on a journey and try my skills at Software Development.</p>
+                <p class="what-i__p">Now. I can conceive, design and build websites from conception through to the design stage, with user stories, wire-frame diagrams, I can determine & design database models utilizing SQL also design and build a back end server application right through to the front end client application.</p>
             </div>
-            <div id="body__main__what-i__have-done">
-                <h2 class="body__main__what-i__h2" style="width: 40ch">What I have done!</h2>
-                <ul class="body__main__what-i__ul">
-                    <li class="body__main__what-i__li">•  Developed Websites utilizing CSS & HTML only.</li>
-                    <li class="body__main__what-i__li">•  Developed Websites utilizing Javascript & JSON Server.</li>
-                    <li class="body__main__what-i__li">•  Developed Front-end Websites utilizing Typescript, React & JSON Server.</li> 
-                    <li class="body__main__what-i__li">•  Developed Back-end Websites utilizing Node.js with Postgres SQL Server.</li>
-                    <li class="body__main__what-i__li">•  Developed Back-end Websites utilizing Java with Mongo.db.</li>
-                </ul>
+            <div class="what-i__have-done">
+                <h2 class="what-i__h2">What I have done!</h2>
+                <p class="what-i__p">•  Developed Websites utilizing <b>CSS</b> & <b>HTML</b> only.</p>
+                <p class="what-i__p">•  Developed Websites utilizing <b>Javascript</b> & <b>JSON</b> Server.</p>
+                <p class="what-i__p">•  Developed Front-end Websites utilizing <b>Typescript</b>, <b>React</b> & <b>JSON</b> Server.</p> 
+                <p class="what-i__p">•  Developed Back-end Websites utilizing <b>Node.js</b> with <b>PostgreSQL</b> Server.</p>
+                <p class="what-i__p">•  Developed Back-end Websites utilizing <b>Java</b> with <b>NoSQL</b></p>
             </div>            
         </section>
 
-        <section id="body__main__projects">
-            <a id="body__main__what-i__a" href="#projects">
-                <h3 id="body__main__what-i__a__button">↓ Wanna See My Projects ↓</h3>
+        <section class="projects">
+            <a class="projects-a" href="#projects">
+                <h3 class="projects-button">↓ Wanna See My Projects ↓</h3>
             </a>
 
             <p id="projects"></p>
 
-            <article class="body__main__projects__article article-response-top">
-                <div class="body__main__projects__article__comments">
-                    <a href="https://github.com/sydneymurray/boolean-uk-html-project-production" class="body__main__projects__article__a">
-                        <h2 class="body__main__projects__article__h2"><span class="hide-github">GitHub:</span>My Favourite Things</h2>
+            <article class="article article-response-top">
+                <div class="article-comments">
+                    <a href="https://github.com/sydneymurray/boolean-uk-html-project-production" class="article-a">
+                        <h2 class="article-h2"><span class="hide-github">GitHub:</span>My Favourite Things</h2>
                      </a>
-                    <p class="body__main__projects__article__p">
-                        <span class="body__main__projects__article__p__span">
+                    <p class="article-p">
+                        <span class="article-p__span">
                             Life is to be enjoyed not endured!
                         </span>
-                        <span class="body__main__projects__article__p__span">
+                        <span class="article-p__span">
                             So with that in mind I decided to create a Gallery of Joy....
                         </span>
-                        <span class="body__main__projects__article__p__span">
+                        <span class="article-p__span">
                             A selection of things in life that I like!
                         </span>
-                        <span class="body__main__projects__article__p__span">
+                        <span class="article-p__span">
                             This is my first ever Web Site, built after learning HTML & CSS for 2 weeks at Boolean-UK hosted on Netlify.com
                         </span> 
                     </p>
                 </div>
                 <a href="https://friendly-jackson-148e71.netlify.app">
-                    <img class="body__main__projects__article__image" src="./resources/Favouite-Things-Houses.png" alt="">
+                    <img class="article-image" src="./resources/Favouite-Things-Houses.png" alt="">
                 </a>
             </article>
 
-            <article class="body__main__projects__article article-response-below">
+            <article class="article article-response-below">
                 <a href="https://infallible-minsky-edb916.netlify.app">
-                    <img class="body__main__projects__article__image" src="./resources/Freedom-State-Prison.png" alt="">
+                    <img class="article-image" src="./resources/Freedom-State-Prison.png" alt="">
                 </a>
-                <div class="body__main__projects__article__comments">
-                    <a href="https://github.com/sydneymurray/boolean-uk-js-project" class="body__main__projects__article__a">
-                        <h2 class="body__main__projects__article__h2"><span class="hide-github">GitHub:</span>Freedom State Prison</h2>
+                <div class="article-comments">
+                    <a href="https://github.com/sydneymurray/boolean-uk-js-project" class="article-a">
+                        <h2 class="article-h2"><span class="hide-github">GitHub:</span>Freedom State Prison</h2>
                     </a>
-                    <p class="body__main__projects__article__p">
-                        <span class="body__main__projects__article__p__span" style="width: 60ch">
+                    <p class="article-p">
+                        <span class="article-p__span">
                             This is my 2nd ever website that I built during my Boolean course.
                         </span>
-                        <span class="body__main__projects__article__p__span" style="width: 60ch">
+                        <span class="article-p__span">
                             Since my first project was a "Gallery of Joy" built using HTML & CSS only!
                         </span>
-                        <span class="body__main__projects__article__p__span" style="width: 60ch">
+                        <span class="article-p__span">
                             I decided to do something a bit more practicle and disheartening.
                         </span>
-                        <span class="body__main__projects__article__p__span" style="width: 60ch">
+                        <span class="article-p__span">
                             A prison administration system hosted on Netlify.com that turned out to be quite amusing in the end.
                         </span>
-                        <span class="body__main__projects__article__p__span" style="width: 60ch">
+                        <span class="article-p__span">
                             Built purely on JavaScript, CSS & JSON.
                         </span>
-                        <span class="body__main__projects__article__p__span" style="width: 60ch">
+                        <span class="article-p__span">
                             The JSON backend is hosted on Heroku because Netlify does not support JSON.
                         </span>
                     </p>
                 </div>
             </article>
 
-            <article class="body__main__projects__article article-response-top">
-                <div class="body__main__projects__article__comments">
-                    <a href="https://github.com/sydneymurray/boolean-uk-react-project" class="body__main__projects__article__a">
-                        <h2 class="body__main__projects__article__h2"><span class="hide-github">GitHub:</span>My Football League Table</h2>
+            <article class="article article-response-top">
+                <div class="article-comments">
+                    <a href="https://github.com/sydneymurray/boolean-uk-react-project" class="article-a">
+                        <h2 class="article-h2"><span class="hide-github">GitHub:</span>My Football League Table</h2>
                     </a>
-                    <p class="body__main__projects__article__p">
-                        <span class="body__main__projects__article__p__span" style="width: 60ch">
+                    <p class="article-p">
+                        <span class="article-p__span">
                             During the Euro's I decided to do my own football league table as my Boolean React project.
                         </span>
-                        <span class="body__main__projects__article__p__span" style="width: 60ch">
+                        <span class="article-p__span">
                             Here you can enter new teams & match results. You can also view team info, results and fixtures.
                         </span>
-                        <span class="body__main__projects__article__p__span" style="width: 60ch">
+                        <span class="article-p__span">
                             I used plain old Javascript, React & CSS for the frontend hosted on Netlify.com
                         </span>
-                        <span class="body__main__projects__article__p__span" style="width: 60ch">
+                        <span class="article-p__span">
                             The backend is a JSON server hosted on Heroku because Netlify does not support JSON
                         </span>
                     </p>
                 </div>
                 <a href="https://condescending-colden-37030e.netlify.app">
-                    <img class="body__main__projects__article__image" src="./resources/League-Table.png" alt="">
+                    <img class="article-image" src="./resources/League-Table.png" alt="">
                 </a>
             </article>
 
-            <article class="body__main__projects__article article-response-below">
+            <article class="article article-response-below">
                 <a href="https://master--hopeful-dijkstra-3cf32d.netlify.app">
-                    <img class="body__main__projects__article__image" src="./resources/Safe-Bank.png" alt="">
+                    <img class="article-image" src="./resources/Safe-Bank.png" alt="">
                 </a>
-                <div class="body__main__projects__article__comments">
-                    <a href="https://github.com/sydneymurray/boolean-uk-solo-project-client" class="body__main__projects__article__a">
-                        <h2 class="body__main__projects__article__h2"><span class="hide-github">GitHub:</span>Safe - Bank</h2>
+                <div class="article-comments">
+                    <a href="https://github.com/sydneymurray/boolean-uk-solo-project-client" class="article-a">
+                        <h2 class="article-h2"><span class="hide-github">GitHub:</span>Safe - Bank</h2>
                     </a>
-                    <p class="body__main__projects__article__p">
-                        <span class="body__main__projects__article__p__span" style="width: 60ch">
+                    <p class="article-p">
+                        <span class="article-p__span">
                             A secure online bank where you can create a secure login and secure accounts, then make payments, transfers and withdrawals.
                         </span>
-                        <span class="center-red" style="width: 60ch">
+                        <span class="center-red">
                               **** NOT A REAL BANK***
                         </span>
-                        <span class="body__main__projects__article__p__span" style="width: 60ch">
+                        <span class="article-p__span">
                             I used plain old React with the React-Router & CSS for the front end. Oh, and I used Zustand for Global State.
                         </span>
-                        <span class="body__main__projects__article__p__span" style="width: 60ch">
+                        <span class="article-p__span">
                             The Backend is Hosted on Heroku.com and I used the Express router to deliver the JSON responses, BCrypt for encrypted passwords, Webtoken for user login authorisation & authentication. I also used Prisma to connect to the Postgress Datebase that is hosted on Elephantsql.com
                         </span>
                     </p>
@@ -183,14 +182,14 @@
 
     <!-- Footer -->
 
-    <footer id="body__footer">
-        <a href="mailto:sydney.murray@yahoo.co.uk" id="body__footer__contact-me__a">
-            <h2 class="h2" id="body__footer__contact-me__h2">Contact Me:<span id="body__footer__contact-me__span">By eMail</span></h2>
+    <footer class="footer">
+        <a href="mailto:sydney.murray@yahoo.co.uk" id="contact-me">
+            <h2 class="contact-me__h2">Contact Me: <span class="contact-me__span">By eMail</span></h2>
         </a>
-        <ul id="body__footer__ul">
-          <li class="body__footer__ul_li">
+        <ul class="footer-ul">
+          <li class="footer-li">
             <a href="https://www.linkedin.com/feed/">
-              <svg class="body__footer__li__svg body__footer__li__svg__round-icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" 
+              <svg class="footer-svg footer-round-svg" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" 
                 xmlns:xlink="http://www.w3.org/1999/xlink"x="0px" y="0px"
                 viewBox="0 0 112.196 112.196" style="enable-background:new 0 0 112.196 112.196;" xml:space="preserve"><g>
                 <circle style="fill:#007AB9;" cx="56.098" cy="56.097" r="56.098"/><g>
@@ -204,9 +203,9 @@
             </a>
           </li>
           
-          <li class="body__footer__ul_li">
+          <li class="footer-li">
             <a href="https://github.com/sydneymurray">
-              <svg class="body__footer__li__svg body__footer__li__svg__square-icon" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" 
+              <svg class="footer-svg footer-square-svg" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" 
                 xmlns:xlink="http://www.w3.org/1999/xlink">
                 <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
                 <title>Github</title>
@@ -232,9 +231,9 @@
             </a>
           </li>
           
-          <li class="body__footer__ul_li">
+          <li class="footer-li">
             <a href="https://twitter.com/home">
-              <svg class="body__footer__li__svg body__footer__li__svg__round-icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" 
+              <svg class="footer-svg footer-round-svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" 
                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                 viewBox="0 0 291.319 291.319" style="enable-background:new 0 0 291.319 291.319;" xml:space="preserve"><g>
                 <path style="fill:#26A6D1;" d="M145.659,0c80.45,0,145.66,65.219,145.66,145.66c0,80.45-65.21,145.659-145.66,145.659
@@ -250,9 +249,9 @@
             </a>
           </li>
           
-          <li class="body__footer__ul_li">
+          <li class="footer-li">
             <a href="https://www.facebook.com/">
-              <svg class="body__footer__li__svg body__footer__li__svg__square-icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" 
+              <svg class="footer-svg footer-square-svg" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" 
                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
                 <path style="fill:#1976D2;" d="M448,0H64C28.704,0,0,28.704,0,64v384c0,35.296,28.704,64,64,64h384c35.296,0,64-28.704,64-64V64
@@ -263,9 +262,9 @@
             </a>
           </li> 
 
-          <li class="body__footer__ul_li">
+          <li class="footer-li">
             <a href="https://www.youtube.com/">
-              <svg class="body__footer__li__svg body__footer__li__svg__square-icon" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" 
+              <svg class="footer-svg footer-square-svg" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" 
                 xmlns:xlink="http://www.w3.org/1999/xlink">
                 <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
                 <title>Youtube</title>
@@ -288,8 +287,8 @@
             </a>
           </li>   
         </ul>
-        <a href="#body__header" id="body__footer__back-to-top">
-            <svg id="body__footer__back-to-top__icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" 
+        <a href="#header">
+            <svg class="back-to-top" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" 
               viewBox="0 0 122.88 120.64" style="enable-background:new 0 0 122.88 120.64" xml:space="preserve"><g>
               <path d="M108.91,66.6c1.63,1.55,3.74,2.31,5.85,2.28c2.11-0.03,4.2-0.84,5.79-2.44l0.12-0.12c1.5-1.58,2.23-3.6,2.2-5.61 
               c-0.03-2.01-0.82-4.01-2.37-5.55C102.85,37.5,84.9,20.03,67.11,2.48c-0.05-0.07-0.1-0.13-0.16-0.19C65.32,0.73,63.19-0.03,61.08,0 

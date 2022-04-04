@@ -1,0 +1,11 @@
+.nav-bar__ul{
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+    .nav-bar__li{
+        margin: 0 2ch;
+    }
+    .nav-bar__li:hover{
+    transform: scale(1.2);
+    }
+}

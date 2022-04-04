@@ -1,0 +1,24 @@
+@import "../components/article";
+
+.projects{
+    .projects-a {
+        display: inline-block;
+        margin-top: 3ch;
+        text-decoration: none;
+        .projects-button {
+            text-decoration: none;
+            padding: 0.5ch 2ch;
+            background-color: #5D87E3;
+            border: 2px solid #5050b8;
+            border-radius: 10px;
+            color: white;
+        }
+        .projects-button:hover {
+            transform: scale(1.1);
+            color: #5D87E3;
+            background-color: white;
+            border: 2px solid #5D87E3;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+        }
+    }
+}

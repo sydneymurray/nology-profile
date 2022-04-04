@@ -1,0 +1,33 @@
+.what-i{
+    display: flex;
+    flex-direction: columns;
+    justify-content: space-evenly;
+    max-width: 160ch;
+    margin-top: 6ch;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2ch;
+    *{
+        width: 64ch;
+    }
+    .what-i__can-do{
+        .what-i__h2{
+            width: 44ch;
+            text-align: center;
+        }
+        .what-i__p{
+            text-align: left;
+        }
+    }
+    .what-i__have-done{
+        .what-i__h2{
+            width: 44ch;
+            text-align: center;
+        }
+        .what-i__p{
+            text-align: left;
+
+        }
+    }
+}
+

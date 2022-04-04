@@ -1,0 +1,60 @@
+.article{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 8ch auto;
+    max-width: 160ch;
+    .article-comments{
+        padding: 1ch;
+        border: 1px solid #dddddd;
+        border-radius: 10px;
+        box-shadow: 0 0px 4px 0px rgba(0, 0, 0, 0.3);
+        width: 64ch;
+        .article-h2{
+            display: inline-block;
+            padding-left: 2ch;
+            padding-right: 2ch;
+            width: auto;
+            .hide-github{
+                display: none;
+            }
+        }
+        .article-h2:hover{
+            transform: scale(0.8);
+            color: white;
+            background-color: #5D87E3;
+            border: 1px solid #5050b8;
+            border-radius: 5px;
+            margin-bottom: 0.5ch;
+            box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.4);
+            .hide-github {
+                display: inline-block;
+                margin-right: 1ch;
+            }
+        }
+        .article-p{
+            text-align: left;
+            //text-align:justify;  
+            //text-justify:inter-word;
+            .article-p__span{
+                text-align: left;
+                display: block;
+            }
+            .center-red{
+                color: red;
+                display: block;
+                text-align: center;
+                font-weight: bold;
+            }
+        }
+    }
+    .article-image{
+        width: 64ch;
+        border: 2px solid #dddddd;
+        border-radius: 10px;
+        box-shadow: 0 0px 4px 0px rgba(0, 0, 0, 0.4);
+    }
+    .article-image:hover {
+        transform: scale(1.1);
+      }
+
+}

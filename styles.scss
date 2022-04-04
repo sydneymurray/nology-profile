@@ -1,5 +1,13 @@
-@import "./scss/base";
-@import "./scss/layout";
-@import "./scss/components";
+// @import "./scss/base";
+// @import "./scss/layout";
+// @import "./scss/components";
+
+@import "./scss/abstracts/variables";
+@import "./scss/base/reset";
+@import "./scss/layout/header";
+@import "./scss/layout/main";
+@import "./scss/layout/footer";
+
+
 
 
