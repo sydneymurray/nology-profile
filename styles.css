@@ -135,7 +135,7 @@ html {
   padding: 1ch;
   border: 1px solid #dddddd;
   border-radius: 10px;
-  box-shadow: 0 0px 4px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
   width: 64ch;
 }
 .article .article-comments .article-h2 {
