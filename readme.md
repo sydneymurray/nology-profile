@@ -1,6 +1,6 @@
 # My Portfolio
-The purpose of this project is to display my Software Development profile
-Hosted at: https://sydneymurray.github.io/portfolio/ \
+The purpose of this project is to display my Software Development profile \
+Hosted at: https://sydneymurray.github.io/portfolio/ 
 
 ## How to build this app
 mkdir portfolio \
