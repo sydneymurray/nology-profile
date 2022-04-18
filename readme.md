@@ -1,24 +1,11 @@
- Introduction
- The purpose of this project is to display my Software Development profile
- Live Site: https://vermillion-otter-ea3ea3.netlify.app/
- GitHub: https://github.com/sydneymurray/nology-profile
+# My Portfolio
+The purpose of this project is to display my Software Development profile
+Hosted at: https://sydneymurray.github.io/portfolio/ \
 
- Requirements
- HTML & CSS compatible Web Server
+## How to build this app
+mkdir portfolio \
+cd portfolio> \
+git clone https://github.com/sydneymurray/portfolio.git \
+npm install
 
- Recommended modules
- Sassy CSS is required
-
- Installation
- Install any of the SCSS extensions in VS-Code
-
- Configuration
- None. This project is HTML & CSS only
- 
- Troubleshooting
- 
- FAQ
- 
- Maintainers
- sydney Murray 
 
