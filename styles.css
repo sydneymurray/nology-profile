@@ -48,7 +48,7 @@ html {
   margin-right: auto;
 }
 .hero .hero-container .hero__image {
-  height: 550px;
+  height: 530px;
   margin: auto;
 }
 .hero .hero-container .hero__h1-container {
@@ -80,10 +80,10 @@ html {
   flex-direction: columns;
   justify-content: space-evenly;
   max-width: 160ch;
-  margin-top: 6ch;
+  margin-top: 3ch;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 2ch;
+  margin-bottom: 1ch;
 }
 .what-i * {
   width: 64ch;
