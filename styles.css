@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Tillana&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Merriweather:wght@900&display=swap");
+/*
+$color-font-shadow: rgb(12, 22, 109);
+$color-font-shadow: rgb(60, 78, 245);
+*/
+@import url("https://fonts.googleapis.com/css2?family=Tillana&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Merriweather:wght@900&display=swap");
 html {
   scroll-behavior: smooth;
 }
@@ -33,6 +39,10 @@ html {
   transform: scale(1.2);
 }
 
+/*
+$color-font-shadow: rgb(12, 22, 109);
+$color-font-shadow: rgb(60, 78, 245);
+*/
 .hero {
   display: flex;
   flex-direction: columns;
@@ -60,7 +70,7 @@ html {
   text-align: left;
   color: white;
   font-size: 2.5em;
-  text-shadow: blue 3px 3px 0, blue -3px -3px 0, blue 3px -3px 0, blue -3px 3px 0;
+  text-shadow: #212e9c 2px 2px 0, #212e9c -2px -2px 0, #212e9c 2px -2px 0, #212e9c -2px 2px 0;
 }
 
 @media screen and (max-width: 754px) {
@@ -77,6 +87,24 @@ html {
     font-size: 1.5em;
   }
 }
+/*
+
+        .hero__h1-container{
+            vertical-align: center;
+            margin: auto;
+            margin-left: 1ch;
+            .hero__h1{
+                text-align: left;
+                color: white;
+                font-size: 2.5em;
+                text-shadow: blue 3px 3px 0,
+                 blue -3px -3px 0,
+                 blue 3px -3px 0,
+                 blue -3px 3px 0;
+            }
+        }
+
+*/
 .what-i {
   display: flex;
   flex-direction: columns;

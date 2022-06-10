@@ -1,3 +1,5 @@
+@import "../abstracts/variables";
+
 .hero{
     display: flex;
     flex-direction: columns;
@@ -22,10 +24,10 @@
                 text-align: left;
                 color: white;
                 font-size: 2.5em;
-                text-shadow: blue 3px 3px 0,
-                 blue -3px -3px 0,
-                 blue 3px -3px 0,
-                 blue -3px 3px 0;
+                text-shadow: $color-font-shadow 2px 2px 0,
+                $color-font-shadow -2px -2px 0,
+                $color-font-shadow 2px -2px 0,
+                $color-font-shadow -2px 2px 0;
             }
         }
     }
@@ -47,3 +49,22 @@
         }
     }
 }
+
+/*
+
+        .hero__h1-container{
+            vertical-align: center;
+            margin: auto;
+            margin-left: 1ch;
+            .hero__h1{
+                text-align: left;
+                color: white;
+                font-size: 2.5em;
+                text-shadow: blue 3px 3px 0,
+                 blue -3px -3px 0,
+                 blue 3px -3px 0,
+                 blue -3px 3px 0;
+            }
+        }
+
+*/
