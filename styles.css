@@ -58,7 +58,9 @@ html {
 }
 .hero .hero-container .hero__h1-container .hero__h1 {
   text-align: left;
+  color: white;
   font-size: 2.5em;
+  text-shadow: blue 3px 3px 0, blue -3px -3px 0, blue 3px -3px 0, blue -3px 3px 0;
 }
 
 @media screen and (max-width: 754px) {
