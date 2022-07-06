@@ -1,6 +1,9 @@
 # My Portfolio
-The purpose of this project is to display my Software Development profile \
+## About
+The purpose of this project is to display my Software Portfolio \
 Hosted at: https://sydneymurray.github.io/portfolio/ 
+
+<img src="./resources/Portfolio.png" alt="screenshot of my game" width="600px" height = "auto">
 
 ## How to build this app
 mkdir portfolio \
